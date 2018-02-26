@@ -8,13 +8,6 @@ module.exports = {
         "standard",
         "promise"
     ],
-    "globals": {
-        "$App": true,
-        "Breeze": true,
-        "$": true,
-        "moment": true,
-        "fetch": true
-    },
     "rules": {
         "indent": ["error", 4, {"SwitchCase": 1}],
         "semi": ["error", "always"],

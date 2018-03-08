@@ -17,7 +17,8 @@ module.exports = {
         "semi": ["error", "always"],
         "max-len": [1, 120, 4],
         "no-alert": ["error"],
-        "space-before-function-paren": ["error", "always"]
+        "space-before-function-paren": ["error", "always"],
+        "react/react-in-jsx-scope": "off"
     },
     "parserOptions": {
         "ecmaVersion": 2017,

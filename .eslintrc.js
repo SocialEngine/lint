@@ -3,10 +3,14 @@ module.exports = {
     "env": {
         "node": true
     },
-    "extends": "standard",
+    "extends": [
+        "standard",
+        "plugin:react/recommended"
+    ],
     "plugins": [
         "standard",
-        "promise"
+        "promise",
+        "react"
     ],
     "rules": {
         "indent": ["error", 4, {"SwitchCase": 1}],
@@ -17,6 +21,9 @@ module.exports = {
     },
     "parserOptions": {
         "ecmaVersion": 2017,
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
     }
 };

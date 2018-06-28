@@ -1,14 +1,14 @@
 {
-  "name": "@socialengine/breeze-eslint",
+  "name": "@socialengine/lint",
   "version": "1.0.0",
-  "description": "SocialEngine Breeze eslint",
+  "description": "SocialEngine lint",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/socialengine/breeze-eslint.git"
+    "url": "git+https://github.com/socialengine/lint.git"
   },
   "keywords": [
     "eslint"
@@ -16,9 +16,9 @@
   "author": "Webligo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/socialengine/breeze-eslint/issues"
+    "url": "https://github.com/socialengine/lint/issues"
   },
-  "homepage": "https://github.com/socialengine/breeze-eslint#readme",
+  "homepage": "https://github.com/socialengine/lint#readme",
   "dependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.17.0",

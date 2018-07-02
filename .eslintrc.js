@@ -14,7 +14,8 @@ module.exports = {
     ],
     'parser': 'babel-eslint',
     'rules': {
-        'indent': ['error', 4, {'SwitchCase': 1}],
+        'indent': 'off',
+        'indent-legacy': ['error', 4, {'SwitchCase': 1}],
         'semi': ['error', 'always'],
         'max-len': [1, 120, 4],
         'no-alert': ['error'],

@@ -1,6 +1,6 @@
 {
   "name": "@socialengine/lint",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "SocialEngine lint",
   "main": ".eslintrc.js",
   "scripts": {
